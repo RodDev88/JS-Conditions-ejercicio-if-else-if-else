@@ -1,0 +1,45 @@
+/* Estilo global para todo el documento */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centrado vertical */
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Asegura que ocupe toda la ventana */
+    margin: 0; /* Elimina el margen predeterminado del body */
+    padding: 10px; /* Espaciado interno */
+  }
+
+  input {
+    width: 200px;
+    margin-bottom: 10px;
+    height: 30px;
+  }
+  
+  /* Estilo para los elementos flexibles dentro del body */
+  
+  
+  /* Botón con hover */
+  button {
+    background-color: #007BFF; /* Color base (azul) */
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease; /* Suaviza el cambio de color */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+  }
+  
+  /* Estilo para el párrafo */
+  p {
+    font-size: 20px; /* Tamaño de letra más grande */
+    text-align: center;
+    margin-top: 10px;
+  }
+  
